@@ -16,9 +16,9 @@ int main()
     int beg=0,end=n,mid=(beg+end)/2;
     while(beg<=end && a[mid]!=key){
         if(a[mid]<key)
-            beg=mid-1;
+            beg=mid;
         else
-            end=mid+1;
+            end=mid;
         mid = (beg+end)/2;
     }
     if(a[mid]==key)
