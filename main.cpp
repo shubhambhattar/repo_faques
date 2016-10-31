@@ -22,9 +22,10 @@ int main()
         mid = (beg+end)/2;
     }
     if(a[mid]==key)
-        cout<<key<<" found at position "<<mid+1;
+    { cout<<key;
+        cout<<" found at position "<<mid+1;
+    }
     else
         cout<<key<<" not found.";
-
     return 0;
 }
